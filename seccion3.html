@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <h2>Garcia Galindo Andrea Michelle</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="seccion1.html">Sección 1</a></li>
+                <li><a href="seccion2.html">Sección 2</a></li>
+                <li><a href="seccion3.html">Sección 3</a></li>
+                <li><button id="inicio-btn"><a href="index.html">Inicio</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="section-page">
+        <h3 style="text-align:center;">Principios de seguridad de la información</h3>
+        <section class="gallery" style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+            <div style="flex-basis: 30%;">
+                <img src="images/acesible.jpg" alt="Imagen 1" class="gallery-image" data-info="Accesibilidad:
+                Es la capacidad de acceder a recursos, servicios o información de manera fácil y sin obstáculos, especialmente para personas con discapacidades. En el ámbito de la tecnología y la información, la accesibilidad se refiere a la creación de entornos digitales que sean utilizables por todos, independientemente de sus habilidades o discapacidades.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/confidencialidad.jpg" alt="Imagen 2" class="gallery-image" data-info="Confidencialidad:
+                Es la propiedad de la información que garantiza que solo las personas autorizadas tengan acceso a ella. La confidencialidad es un principio fundamental en la seguridad de la información, asegurando que los datos sensibles, como información personal o financiera, no sean divulgados sin permiso">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/disponibilidad.webp" alt="Imagen 3" class="gallery-image" data-info="Disponibilidad:
+                Se refiere a la garantía de que los datos y los recursos están accesibles y utilizables cuando se necesitan. La disponibilidad es esencial en sistemas de información y servicios, asegurando que los usuarios puedan acceder a la información o a los servicios en cualquier momento, sin interrupciones.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/autenticacion.jpg" alt="Imagen 4" class="gallery-image" data-info="Autenticación:
+                Es el proceso de verificar la identidad de un usuario, dispositivo o sistema. La autenticación asegura que las partes involucradas son quienes dicen ser y se lleva a cabo mediante métodos como contraseñas, biometría (huellas dactilares, reconocimiento facial) y tokens de seguridad.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/integridad.jpeg" alt="Imagen 5" class="gallery-image" data-info="Integridad:
+                Es la propiedad que garantiza que la información se mantenga completa, precisa y sin alteraciones no autorizadas. La integridad asegura que los datos no han sido modificados durante su almacenamiento o transmisión, y es fundamental para mantener la confianza en la información.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/control.png" alt="Imagen 6" class="gallery-image" data-info="Control de Acceso:
+                Es un conjunto de políticas y tecnologías que regulan quién puede acceder a ciertos recursos y datos dentro de un sistema. El control de acceso se implementa para proteger la información, asegurando que solo los usuarios autorizados tengan permiso para visualizar, modificar o interactuar con los recursos específicos.">
+            </div>
+        </section>
+    </main>
+
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-info">Información aleatoria al hacer clic en una imagen.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

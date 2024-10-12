@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <h2>Garcia Galindo Andrea Michelle</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="seccion1.html">Sección 1</a></li>
+                <li><a href="seccion2.html">Sección 2</a></li>
+                <li><a href="seccion3.html">Sección 3</a></li>
+                <li><button id="inicio-btn"><a href="index.html">Inicio</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="section-page">
+        <h3 style="text-align:center;">
+            Confidencialidad de la informacion</h3>
+        <section class="gallery" style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+            <div style="flex-basis: 30%;">
+                <img src="images/ley.jpg" alt="Imagen 1" class="gallery-image" data-info="Ley General de Protección de Datos Personales de México: Es una legislación mexicana que regula el tratamiento de datos personales en posesión de entidades públicas y privadas. Su objetivo es garantizar el derecho a la privacidad y a la protección de datos personales, estableciendo principios, derechos y procedimientos para el manejo de la información personal.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley2.jpg" alt="Imagen 2" class="gallery-image" data-info="Ley de Propiedad Industrial: Es una ley que regula la protección de los derechos relacionados con la propiedad industrial, incluyendo patentes, marcas, nombres comerciales y diseños industriales. Su propósito es fomentar la innovación y la competencia leal, protegiendo los derechos de los creadores y propietarios de invenciones y signos distintivos.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley3.png" alt="Imagen 3" class="gallery-image" data-info="Ley Federal de Derechos de Autor:
+                Es una legislación que protege los derechos de los autores sobre sus obras literarias, artísticas y científicas. Esta ley establece los derechos morales y patrimoniales de los autores, así como los procedimientos para la protección y la explotación de sus obras.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley4.webp" alt="Imagen 4" class="gallery-image" data-info="Ley Federal de Datos Personales en Posesión de Particulares:
+                Es una legislación mexicana que regula el tratamiento de datos personales por parte de particulares (empresas y organizaciones). Tiene como objetivo proteger la privacidad de las personas y establece principios y derechos que deben ser observados por quienes manejan datos personales.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley5.webp" alt="Imagen 5" class="gallery-image" data-info="Código Penal Federal:
+                Es el cuerpo normativo que establece los delitos y las penas aplicables en el ámbito federal en México. Define conductas delictivas, establece sanciones y regula el procedimiento penal para la persecución y juzgamiento de los delitos.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley66.jpeg" alt="Imagen 6" class="gallery-image" data-info="Ley General de Transparencia y Acceso a la Información:
+                Es una ley que busca garantizar el derecho de acceso a la información pública en México. Establece las obligaciones de transparencia de las entidades públicas y promueve la rendición de cuentas, permitiendo a los ciudadanos acceder a información relevante sobre el manejo de recursos públicos y decisiones gubernamentales">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley7.png" alt="Imagen 7" class="gallery-image" data-info="Criptografía Simétrica:
+                Es un método de cifrado en el que se utiliza la misma clave para el cifrado y el descifrado de la información. La seguridad de este método depende de la protección de la clave secreta, que debe ser compartida entre las partes que comunican.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley8.png" alt="Imagen 8" class="gallery-image" data-info="Criptografía Asimétrica:
+                Es un método de cifrado que utiliza un par de claves: una clave pública y una clave privada. La clave pública puede ser compartida libremente, mientras que la clave privada se mantiene en secreto. Este tipo de criptografía permite realizar operaciones como el cifrado de mensajes y la firma digital, sin necesidad de compartir una clave secreta.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley9.webp" alt="Imagen 9" class="gallery-image" data-info="Cifrado por Bloques y por Flujo:
+                Cifrado por Bloques: Es un método de cifrado que divide los datos en bloques de un tamaño fijo y cifra cada bloque por separado. Este enfoque es comúnmente utilizado en algoritmos como AES (Advanced Encryption Standard).
+                
+                Cifrado por Flujo: Es un método de cifrado que cifra los datos bit a bit o byte a byte, en lugar de en bloques. Se utiliza a menudo en situaciones donde se necesita una transmisión continua de datos, como en comunicaciones en tiempo real.">
+            </div>
+            <div style="flex-basis: 30%;">
+                <img src="images/ley10.webp" alt="Imagen 10" class="gallery-image" data-info="Criptoanálisis:
+                Es la práctica de analizar y descomponer sistemas de cifrado con el fin de obtener acceso a la información cifrada sin conocer la clave utilizada para cifrarla. El criptoanálisis busca identificar debilidades en los algoritmos de cifrado y desarrollar técnicas para romper la seguridad de los mismos.">
+            </div>
+        </section>
+    </main>
+
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-info">Información aleatoria al hacer clic en una imagen.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
